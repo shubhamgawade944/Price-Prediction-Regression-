@@ -47,4 +47,4 @@ Seaborn, Matplotlib – Data visualization
 
 Scikit-learn – Machine learning modeling & evaluation
 
-![House Price Prediction Screenshot](images/screenshot.png)
+![House Price Prediction Screenshot]([images/screenshot.png](https://github.com/shubhamgawade944/Price-Prediction-Regression-/blob/main/House_price_prediction_previrw.pdf))
