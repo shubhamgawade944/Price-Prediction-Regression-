@@ -1,13 +1,20 @@
-House Price Prediction using Machine Learning
+🏡 House Price Prediction using Machine Learning
 🔍 Overview
-This project focuses on building machine learning models to predict house prices based on key features like area, number of bedrooms, and location. It includes data preprocessing, exploratory data analysis (EDA), model training, evaluation, and visualization.
+This project aims to predict house prices using various machine learning regression techniques. It involves end-to-end model building—starting from data preprocessing and exploratory data analysis (EDA), followed by training and evaluating multiple regression models, and finally visualizing the predictions.
 
-📊 Features
-Exploratory Data Analysis (EDA) using Pandas, Matplotlib, and Seaborn
+📊 Key Features
+Exploratory Data Analysis (EDA)
+Leveraged Pandas, Matplotlib, and Seaborn to explore relationships between variables and uncover hidden trends.
 
-Feature selection and preprocessing (handling nulls, encoding categorical data, scaling)
+Feature Engineering and Preprocessing
 
-Regression models:
+Handled missing values
+
+Encoded categorical variables (e.g., location)
+
+Scaled numerical features using StandardScaler/MinMaxScaler
+
+Implemented Regression Models
 
 Linear Regression
 
@@ -15,16 +22,29 @@ Decision Tree Regressor
 
 Random Forest Regressor
 
-Evaluation metrics: MAE, MSE, RMSE, and R² score
+Model Evaluation Metrics
 
-Model comparison and visualization of predictions
+Mean Absolute Error (MAE)
 
-Tech Stack
+Mean Squared Error (MSE)
+
+Root Mean Squared Error (RMSE)
+
+R² Score
+
+Model Comparison and Visualization
+
+Compared model performances using metrics and visual plots
+
+Visualized actual vs predicted house prices
+
+🧰 Tech Stack
 Python (Jupyter Notebook)
 
-Pandas, NumPy – Data processing
+Pandas, NumPy – Data manipulation & preprocessing
 
-Seaborn, Matplotlib – Visualization
+Seaborn, Matplotlib – Data visualization
 
-Scikit-learn – Machine Learning
+Scikit-learn – Machine learning modeling & evaluation
 
+![House Price Prediction Screenshot](images/screenshot.png)
